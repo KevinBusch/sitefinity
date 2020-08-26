@@ -863,6 +863,9 @@
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AzureWebRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MVC\Controllers\FlightDataController.cs" />
+    <Compile Include="MVC\Models\FlightDataModel.cs" />
+    <Compile Include="MVC\ViewModels\LaunchViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminApp\app.1690b120df4c1e36b4dc.bundle.js" />
@@ -979,6 +982,7 @@
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-6+6.html" />
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-8+4.html" />
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-9+3.html" />
+    <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-alert.html" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Scripts\Navigation\pills.js" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Services\Analytics\AnalyticsPermissionsService.svc" />
@@ -1093,6 +1097,7 @@
     <Content Include="Mvc\Models\readme.txt" />
     <Content Include="Mvc\Views\readme.txt" />
     <Content Include="Mvc\Views\Shared\readme.txt" />
+    <Content Include="MVC\Views\FlightData\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
