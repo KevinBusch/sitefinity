@@ -862,7 +862,9 @@
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="MVC\Controllers\ArticlesController.cs" />
     <Compile Include="MVC\Controllers\FlatTaxonomyController.cs" />
+    <Compile Include="MVC\Controllers\OfficesController.cs" />
     <Compile Include="MVC\Models\FlatTaxonomyModel.cs" />
     <Compile Include="MVC\ViewModels\FlatTaxonomyViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1145,12 +1147,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Sitefinity\" />
+    <Folder Include="MVC\Views\Offices\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
     <Content Include="AdminApp\config.json" />
     <None Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
     <Content Include="MVC\Views\FlatTaxonomy\Index.cshtml" />
+    <Content Include="MVC\Views\Articles\ArticlesList.cshtml" />
     <None Include="packages.config" />
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>

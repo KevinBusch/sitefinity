@@ -1,0 +1,16 @@
+﻿@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+
+@model IEnumerable<SitefinityWebApp.MVC.ViewModels.OfficeViewModel>
+
+<div>
+    <ul class="list-unstylked row news-list-page">
+        @foreach (var office in Model)
+        {
+            <li class="col-md-4">
+                <h2>@office.Title</h2>
+                <img src="@office.Picture.ImageUrl" alt="@office.Picture.AltText" style="margin-bottom: 15px;" />
+                <p>@Html.HtmlSanitize(office.Info)</p>
+            </li>
+        }
+    </ul>
+</div>
