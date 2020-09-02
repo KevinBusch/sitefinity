@@ -30,6 +30,9 @@
 //                .Where(o => o.Status == ContentLifecycleStatus.Live && o.Visible == true)
 //                .OrderBy("Title");
 
+//            // IMPORTANT: eagerly load data to prevent "N" roundtrips to database
+//            offices.SetRelatedDataSourceContext();
+
 //            return offices.ToArray()
 //                .Select(o => ToViewModel(o));
 //        }
