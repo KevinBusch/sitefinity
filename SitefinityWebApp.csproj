@@ -864,9 +864,12 @@
     <Compile Include="AzureWebRole.cs" />
     <Compile Include="MVC\Controllers\ArticlesController.cs" />
     <Compile Include="MVC\Controllers\FlatTaxonomyController.cs" />
-    <Compile Include="MVC\Controllers\OfficesController.cs" />
+    <Compile Include="MVC\Controllers\OurOfficesController.cs" />
     <Compile Include="MVC\Models\FlatTaxonomyModel.cs" />
+    <Compile Include="MVC\Models\OfficeModel.cs" />
     <Compile Include="MVC\ViewModels\FlatTaxonomyViewModel.cs" />
+    <Compile Include="MVC\ViewModels\ImageViewModel.cs" />
+    <Compile Include="MVC\ViewModels\OfficeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MVC\Controllers\FlightDataController.cs" />
     <Compile Include="MVC\Models\FlightDataModel.cs" />
@@ -1155,6 +1158,8 @@
     <None Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
     <Content Include="MVC\Views\FlatTaxonomy\Index.cshtml" />
     <Content Include="MVC\Views\Articles\ArticlesList.cshtml" />
+    <Content Include="MVC\Views\OurOffices\Index.cshtml" />
+    <Content Include="MVC\Views\OurOffices\OfficeResult.cshtml" />
     <None Include="packages.config" />
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>

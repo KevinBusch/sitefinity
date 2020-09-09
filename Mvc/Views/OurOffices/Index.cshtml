@@ -1,8 +1,14 @@
 ﻿@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.UI.MVC;
 
 @model IEnumerable<SitefinityWebApp.MVC.ViewModels.OfficeViewModel>
 
 <div>
+    @using (Html.BeginFormSitefinity("CreateOffice", "office_create")) 
+    {
+        <button type="submit" class="btn btn-primary">Create Office</button>
+    }
+
     <ul class="list-unstylked row news-list-page">
         @foreach (var office in Model)
         {

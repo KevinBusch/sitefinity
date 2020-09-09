@@ -20,5 +20,12 @@
 //            var viewModel = this.officeModel.GetOfficesViewModels();
 //            return View("Index", viewModel);
 //        }
+
+//        [HttpPost]
+//        public ActionResult CreateOffice()
+//        {
+//            ViewBag.Result = this.officeModel.CreateOffice();
+//            return View("OfficeResult");
+//        }
 //    }
 //}
