@@ -862,9 +862,11 @@
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="Configuration\IntegrationConfig.cs" />
     <Compile Include="MVC\Controllers\ArticlesController.cs" />
     <Compile Include="MVC\Controllers\FlatTaxonomyController.cs" />
     <Compile Include="MVC\Controllers\OurOfficesController.cs" />
+    <Compile Include="MVC\Models\ConfigurationModel.cs" />
     <Compile Include="MVC\Models\FlatTaxonomyModel.cs" />
     <Compile Include="MVC\Models\OfficeModel.cs" />
     <Compile Include="MVC\ViewModels\FlatTaxonomyViewModel.cs" />
@@ -1151,6 +1153,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Sitefinity\" />
+    <Folder Include="MVC\Views\IntegrationConfig\" />
     <Folder Include="MVC\Views\Offices\" />
   </ItemGroup>
   <ItemGroup>
